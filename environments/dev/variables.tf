@@ -12,3 +12,7 @@ variable "bucket_name" {
   type        = string
   description = "bucket name for aws provider"
 }
+variable "versioning_enabled" {
+  type        = bool
+  description = "Enable S3 versioning"
+}

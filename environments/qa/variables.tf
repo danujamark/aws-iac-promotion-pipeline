@@ -15,3 +15,7 @@ variable "bucket_name" {
   default     = "danuja-project01-qa-bucket-2026"
   description = "bucket name for aws qa"
 }
+variable "versioning_enabled" {
+  type        = bool
+  description = "Enable S3 versioning"
+}
