@@ -10,5 +10,5 @@ variable "env" {
 variable "versioning_enabled" {
   type        = bool
   description = "Enable or suspend S3 bucket versioning"
-  default     = false
+
 }
